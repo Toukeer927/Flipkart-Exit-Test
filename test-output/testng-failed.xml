@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BaseTest.Test3_GroceryPageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="Cart"/>
+          <include name="CloseBrowser"/>
+          <include name="Grocery"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.Test3_GroceryPageTest -->
+      <class name="BaseTest.Test2_HomePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="CloseBrowser"/>
+          <include name="searchMobile"/>
+          <include name="reportFlush"/>
+          <include name="compareProduct"/>
+        </methods>
+      </class> <!-- BaseTest.Test2_HomePageTest -->
+      <class name="BaseTest.Test6_FooterPageTest">
+        <methods>
+          <include name="SocialTest"/>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="giftCard"/>
+          <include name="CloseBrowser"/>
+          <include name="cancel"/>
+          <include name="reportFlush"/>
+          <include name="FaQTest"/>
+        </methods>
+      </class> <!-- BaseTest.Test6_FooterPageTest -->
+      <class name="BaseTest.Test4_HeadersPageTest">
+        <methods>
+          <include name="BecameSeller"/>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="TwoWhellers"/>
+          <include name="electronic"/>
+          <include name="Test_searchFlight"/>
+          <include name="headersTest"/>
+          <include name="beauty"/>
+          <include name="CloseBrowser"/>
+          <include name="offer"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.Test4_HeadersPageTest -->
+      <class name="BaseTest.Test7_ExplorePlusePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="ExplorePlus1"/>
+          <include name="CloseBrowser"/>
+          <include name="ExplorePlus"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.Test7_ExplorePlusePageTest -->
+      <class name="BaseTest.Test5_NavigatorTest">
+        <methods>
+          <include name="Rightnavigate"/>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="CloseBrowser"/>
+          <include name="leftNavigate"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.Test5_NavigatorTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
